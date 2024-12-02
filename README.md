@@ -4,4 +4,4 @@
 - @antowkas - Антон Соколов
 - @solianka13 - Софья Сорокина
 - @vladislavgnrussia - Гнатюк Владислав
-- @Irtak1utka - Суриков Алексей
+- @Irtak1utka - Суриков Алексей!
