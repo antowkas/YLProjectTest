@@ -5,7 +5,7 @@ DB_PATH = "todo_list.db"
 
 # SQL для создания таблиц
 CREATE_USER_TABLE = """
-CREATE TABLE IF NOT EXISTS use (
+CREATE TABLE IF NOT EXISTS user (
     user_id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_username TEXT NOT NULL UNIQUE,
     user_password TEXT NOT NULL,
