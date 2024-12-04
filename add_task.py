@@ -16,6 +16,8 @@ def adding_task():
         cur.execute('''INSERT INTO task(task_title, task_description) VALUES(?, ?)''',
                     (task_title, task_desc))
     print('Задача успешно добавлена!')
+    cur.close()
+    con.close()
 
 
 def changing():
@@ -35,3 +37,4 @@ def changing():
 
 
 adding_task()
+changing()
